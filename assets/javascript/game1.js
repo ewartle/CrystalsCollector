@@ -38,6 +38,7 @@ $(document).ready(function(){
 		randomGreen = Math.floor(Math.random() * (12 - 1 + 1)) + 1; 
 			
 	   totalScore = 0;
+	   $("#totalBox").html(totalScore);
 	   currentScore = totalScore
 	   
 	}
